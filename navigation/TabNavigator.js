@@ -1,8 +1,7 @@
 import * as React from 'react';
-import Home from './screens/Home';
-import Feed from './screens/Feed';
+import Home from '../screens/Home';
+import Feed from '../screens/Feed';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import {NavigationContainer} from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 const Tab = createBottomTabNavigator();
