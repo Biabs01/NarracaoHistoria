@@ -73,14 +73,14 @@ const styles = StyleSheet.create({
     droidSafeArea: {
         marginTop: Platform.OS === 'android' ? StatusBar.currentHeight : RFValue(35)
     },
+    appTitle: {
+        flex: 0.7,
+        flexDirection: 'row'
+    },
     appIcon: {
         flex: 0.3,
         justifyContent: 'center',
         alignItems: 'center'
-    },
-    appTitle: {
-        flex: 0.7,
-        flexDirection: 'row'
     },
     iconImage: {
         width: '100%',
